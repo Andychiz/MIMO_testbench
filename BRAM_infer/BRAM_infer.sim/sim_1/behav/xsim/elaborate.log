@@ -4,5 +4,11 @@ Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto d96be83732
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'out_tb' is not permitted [D:/MIMO_Testbench/BRAM_infer/BRAM_infer.srcs/sim_1/new/mem_test_tb.v:9]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mem_test
+Compiling module xil_defaultlib.mem_test_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mem_test_tb_behav

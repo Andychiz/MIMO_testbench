@@ -4,7 +4,7 @@
 module mem_test_tb(
     );
     reg clk_tb;
-	reg [15:0] out_tb;
+	wire [15:0] out_tb;
 	
 	mem_test mem( .clk(clk_tb), .out(out_tb));
 	
